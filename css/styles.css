@@ -1,0 +1,55 @@
+/* Homepage nav bar */
+
+.nav-bar.home{
+    list-style: none;
+    padding: 24px;
+    padding-left: 0px;
+    background-color: #333;
+  
+}
+
+.nav-bar.home a{
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 16px;
+    padding: 24px; 
+    
+}
+
+
+.nav-bar.home .link1:hover,
+.nav-bar.home .link2:hover,
+.nav-bar.home .link3:hover{
+    background-color: black;
+
+}
+
+/* About nav bar */
+
+.nav-bar.about{
+    list-style: none;
+    padding: 24px;
+    padding-left: 0px;
+    background-color: #333;
+  
+}
+
+.nav-bar.about a{
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 16px;
+    padding: 24px; 
+    
+}
+
+
+.nav-bar.about .link1:hover,
+.nav-bar.about .link2:hover,
+.nav-bar.about .link3:hover{
+    background-color: black;
+
+}
+
+
