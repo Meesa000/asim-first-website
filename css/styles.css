@@ -10,7 +10,7 @@ body{
     padding-left: 0px;
     background-color: #333;
     margin-bottom: 24px;
-    border: 1px solid grey;
+    border: 1px solid gray;
   
 }
 
@@ -92,24 +92,6 @@ body{
 }
 
 
-.container{ 
-    width: 400px;
-    margin: auto;
-    
-}
-.about-text{
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 50px;
-    padding: 10px;
-    text-align: center;
-    border: 2px solid gray;
-    font-weight: bold;
-    color: whitesmoke;
-   
-    
-    
- 
-}
 
 /* About nav bar */
 
@@ -138,8 +120,42 @@ body{
 
 }
 
-.parent-container{
-    border: 5px black;
+.container{ 
+    width: 400px;
+    margin: auto;
+    border: 2px solid gray;
+
+    
+    
 }
+.about-text{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+
+ 
+}
+
+.left-container{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 650px;
+    height: 500px;
+    border: 20px solid;
+}
+
+.left-text{
+    
+    margin: 125px auto 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px;
+
+
+}
+
+
 
 
