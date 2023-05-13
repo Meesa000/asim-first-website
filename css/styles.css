@@ -23,8 +23,7 @@ body{
     text-decoration: none;
     font-family: "Roboto";
     font-size: 16px;
-    padding: 16px; 
-    /* border-right: grey solid 1px; */
+    margin: 16px; 
     box-sizing: border-box;
 }
    
@@ -47,27 +46,27 @@ body{
 
 
 /* Social media icons */
-.nav-bar.home .twitch{
+
+.nav-bar.home .twitch,
+.nav-bar.home .reddit,
+.nav-bar.home .yt,
+.nav-bar.home .twitter{
     float: right;
-    padding-left: 24px;  
+    margin-left: 24px;
     font-size: 24px;
-    color: black;
+
+}
+.nav-bar.home .twitch{
     color: #9146FF;
     
     
 }
 .nav-bar.home .reddit{
-    float: right;
-    padding-left: 50px;
-    font-size: 24px;
     color: #ff4500	;
     
 }
 
 .nav-bar.home .yt{
-    float: right;
-    padding-left: 24px;
-    font-size: 24px;
     color: #cd201f;
     
     
@@ -75,7 +74,7 @@ body{
 
 .nav-bar.home .twitter{
     float: right;
-    padding-left: 24px;
+    margin-left: 30px;
     font-size: 24px;
     color: #55acee	;
 }
