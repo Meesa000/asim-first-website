@@ -1,11 +1,12 @@
 /* Homepage nav bar */
+
 body{
     background-color: #131516;
 }
 
 .nav-bar.home{
     list-style: none;
-    padding: 24px;
+    padding: 16px;
     padding-left: 0px;
     background-color: #333;
     margin-bottom: 24px;
@@ -13,15 +14,49 @@ body{
   
 }
 
-.nav-bar.home a{
+.nav-bar.home .link1,
+.nav-bar.home .link2,
+.nav-bar.home .link3{
     color: white;
     text-decoration: none;
     font-family: "Roboto";
     font-size: 16px;
-    padding: 24px; 
-    border-right: grey solid 1px;
+    padding: 16px; 
+    /* border-right: grey solid 1px; */
     box-sizing: border-box;
 }
+
+/* Social media icons */
+.nav-bar.home .twitch{
+    float: right;
+    padding-left: 24px;  
+    font-size: 24px;
+    color: white;
+    
+}
+.nav-bar.home .reddit{
+    float: right;
+    padding-left: 24px;
+    font-size: 24px;
+    color: white;
+}
+
+.nav-bar.home .yt{
+    float: right;
+    padding-left: 24px;
+    font-size: 24px;
+    color: white;
+}
+
+
+.nav-bar.home .twitch:hover ion-icon,
+.nav-bar.home .reddit:hover ion-icon,
+.nav-bar.home .yt:hover ion-icon{
+    opacity: 0.25;
+   
+
+}
+
 .nav-bar.home .link2{
     margin-left: -3px;
 }
@@ -32,13 +67,12 @@ body{
 .nav-bar.home .link1:hover,
 .nav-bar.home .link2:hover,
 .nav-bar.home .link3:hover{
+    color: grey;
     background-color: black;
+    opacity: 0.5;
 }
 
-.nav-bar.home .right-nav-bar{
-    
-    float: right;
-}
+
 
 
 .container{ 
